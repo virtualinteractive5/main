@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Deductions FY 2024-2025</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Menu -->
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li>Dashboard</li>
+                    <li>My Pay Slips</li>
+                    <li>Attendance</li>
+                    <li>Tax Deductions</li>
+                    <li>Reimbursements</li>
+                    <li>Documents</li>
+                    <li>Help</li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content">
+            <header>
+                <h1>Tax Deductions FY 2024-2025</h1>
+                <div class="intro-box">
+                    <p>
+                        You have the option of either using a new tax regime (with no tax deductions), or using the same regime as FY 2019-20. To help you make an informed decision, we are displaying your tax liability in both these regimes, and you can choose the option that you prefer. For us to accurately calculate your tax liabilities, please ensure you fill in all the information requested below, irrespective of the regime that you pick.
+                    </p>
+                </div>
+            </header>
+
+            <!-- Tax Regime Comparison Table -->
+            <section class="tax-regime-section">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>New Tax Regime</th>
+                            <th>Old Tax Regime</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Earnings: ₹62,867</td>
+                            <td>Earnings: ₹62,867</td>
+                        </tr>
+                        <tr>
+                            <td>Exemptions: ₹0</td>
+                            <td>Exemptions: ₹0</td>
+                        </tr>
+                        <tr>
+                            <td>Standard Deduction: ₹75,000</td>
+                            <td>Standard Deduction: ₹50,000</td>
+                        </tr>
+                        <tr>
+                            <td>Deductions: ₹0</td>
+                            <td>Deductions: ₹0</td>
+                        </tr>
+                        <tr>
+                            <td>Taxable Income: ₹12,867</td>
+                            <td>Taxable Income: ₹12,867</td>
+                        </tr>
+                        <tr>
+                            <td>Total Tax Liability: ₹0</td>
+                            <td>Total Tax Liability: ₹0</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="regime-buttons">
+                    <button id="switchRegimeBtn">Switch Regime</button>
+                    <button id="confirmSelectionBtn">Confirm Selection</button>
+                </div>
+            </section>
+
+            <!-- Tax Sections -->
+            <section class="tax-details">
+                <h2>Current home rent (as on 01/11/2024) <span class="edit-link">Edit</span></h2>
+                <div class="section-content">
+                    <p>Current Monthly Rent: ₹0</p>
+                    <p>Name of landlord: -NA-</p>
+                    <p>PAN of landlord: -NA-</p>
+                    <p>Address of landlord: -NA-</p>
+                </div>
+
+                <h2>Section 80 deductions (investments, education loans, medical insurance etc.) <span class="edit-link">Edit</span></h2>
+                <div class="section-content">
+                    <p>Section 80C: ₹0</p>
+                    <p>Section 80CCD (1B): ₹0</p>
+                    <p>Section 80D: ₹0</p>
+                    <!-- Continue for other sections as shown in the image -->
+                </div>
+
+                <h2>Interest on home loan <span class="edit-link">Edit</span></h2>
+                <div class="section-content">
+                    <p>Annual interest payable/paid: ₹0</p>
+                    <p>Additional benefit under Section 80EE: ₹0</p>
+                    <!-- Additional details -->
+                </div>
+
+                <h2>Leave Travel Allowance <span class="edit-link">Edit</span></h2>
+                <div class="section-content">
+                    <p>Amount: ₹0</p>
+                    <p>Origin: -NA-</p>
+                    <p>Destination: -NA-</p>
+                </div>
+
+                <h2>Flexible Benefits</h2>
+                <div class="section-content">
+                    <p>Annual Salary: ₹1,20,000</p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Salary Preview Sidebar -->
+        <aside class="salary-preview">
+            <h2>November 2024 Salary Preview</h2>
+            <p>Earnings: ₹10,000</p>
+            <p>TDS: ₹0</p>
+            <p>Total Deductions: ₹0</p>
+            <p>Net Pay: ₹10,000</p>
+            <button>View Payslip</button>
+            <h3>Form 12BB</h3>
+            <p>Download, sign and upload your investments on form 12BB</p>
+            <h3>Flexible Benefits Declarations</h3>
+            <p>View or add flexible benefit plan declarations</p>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
